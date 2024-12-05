@@ -36,7 +36,7 @@ const Header = () => {
           {[FaGithub, FaLinkedin, FaTwitter].map((Icon, index) => (
             <motion.a
               key={index}
-              href="#"
+              href="https://github.com/Toptha"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: -20 }}
