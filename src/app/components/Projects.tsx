@@ -4,18 +4,38 @@ import { motion, AnimatePresence } from 'framer-motion'
 const projects = [
   {
     title: 'Pincrest',
-    description: 'A Pinterest clone with enhanced features and a unique twist.',
-    image: '/placeholder.svg?height=300&width=400',
+    description: (
+      <>
+      A Pinterest clone with enhanced features and a unique twist.{' '}
+        <br></br>
+        <br></br>
+        <center><a href="https://toptha.github.io/Pincrest/" target="_blank" rel="noopener noreferrer">
+          Visit it
+        </a></center>
+      </>
+    ),
+
+
+    image: '/images/pincrest.png',
   },
   {
     title: 'Mori Woodworkers',
-    description: 'An e-commerce platform for handcrafted furniture and wood crafts.',
-    image: '/placeholder.svg?height=300&width=400',
+    description: (
+      <>
+        An e-commerce platform for handcrafted furniture and wood crafts.{' '}
+        <br></br>
+        <br></br>
+        <center><a href="https://moriwoodworkers.vercel.app/" target="_blank" rel="noopener noreferrer">
+          Visit it
+        </a></center>
+      </>
+    ),
+    image: '/images/Mori.png',
   },
   {
     title: 'Complex Calculators',
     description: 'A suite of advanced calculators built with C++.',
-    image: '/placeholder.svg?height=300&width=400',
+    image: '/images/calc.jpeg',
   },
   {
     title: 'Carbon Emissions Tester',
